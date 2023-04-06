@@ -1,0 +1,190 @@
+UNIT Varios;
+Interface
+  Function Potencia (X:real; N:shortint): real;
+  Function Factorial (N:byte): longint;  {N<= 12}
+  Procedure Intercambio (Var X,Y:longint);
+  Procedure OrdenaTres (Var A,B,C:longint); {orden creciente}
+  Function Primo (N:word): boolean; {devuelve true si es primo}
+  Function Capicua(N:longint):boolean; {devuelve TRUE si N es capicua}
+  Function Sumatoria ( N: word): longint; {1+ 2+ 3..+ N}
+  Function Aleatorio (X1,X2: word): word; {devuelve un valor entre [X1, X2], el invocante debe invocar
+                                                 previamente Randomize, una unica vez}
+  Function Distancia (X1, Y1, X2, Y2: real): real;
+  Function Cuadrante(X,Y : real): byte; {0-origen;1..4-cuadrantes;5-ejeX;6-ejeY}
+  Function MCD (N1,N2: integer): integer;
+  Function MCM (N1,N2: integer): integer;
+
+Implementation
+
+function Potencia (X:real; N:shortint): real;
+var
+   aux:real;
+   i:byte;
+begin
+   aux:=1;
+   for i:=1 to abs(N) do
+       aux:=aux*X;
+   if N>=0 then
+       Potencia:=aux
+   else
+       Potencia:=1/aux
+end;
+
+{------------------------------------------------------------------}
+procedure Intercambio (Var X,Y:longint);
+var
+     aux:longint;
+begin
+     aux:=X;
+     X:=Y;
+     Y:=aux
+end;
+
+{------------------------------------------------------------------}
+procedure OrdenaTres (Var A,B,C:longint); {orden creciente}
+var
+   aux:longint;
+begin
+    if (A>B) then
+        Intercambio(A, B);
+    if  (B>C) then
+        begin
+        Intercambio(B, C);
+        if A>B then
+        Intercambio(A, B);
+        end;
+end;
+{------------------------------------------------------------------}
+function Factorial (N:byte): longint;  {N <= 12}
+var
+   i:byte;
+   aux:longint;
+begin
+   aux:=1;
+   for i:=2 to N do
+       aux:=aux*i;
+   factorial:=aux
+end;
+
+{------------------------------------------------------------------}
+function Primo (N:word): boolean;
+Var
+   I, Tope : word;
+Begin
+   if  (N <> 2) AND (N mod 2 = 0) then
+	Primo := FALSE
+   else
+	Begin
+	I := 3;   Tope:= Trunc(sqrt(N));
+	While (N mod I <> 0) AND (I < Tope) do
+		I := I + 2;
+	Primo := I > sqrt(N)
+	end;
+end;
+
+{------------------------------------------------------------------}
+function capicua(n:longint):boolean;
+var
+aux,antn:longint;
+begin
+  aux:=0; antn:=n;
+  while n<>0 do
+    begin
+    aux:=n mod 10 +aux*10;
+    n:=n div 10
+    end;
+  capicua:= antn = aux;
+end;
+
+{------------------------------------------------------------------}
+Function Sumatoria (N: word): longint;
+Var
+  I: word; S:longint;
+Begin
+ S:=0;
+ For i:=1 to N do
+   S:=S+i;
+ Sumatoria:= S;
+End;
+
+
+
+{-------------------------------------------------------------------}
+{Antes de invocar Aleatorio es necesario que el programa invoque Randomize }
+Function Aleatorio (X1,X2: word): word;
+Begin
+  if X1=X2 then
+     Aleatorio:=Random(X1)
+  else
+     if X1<X2 then
+         Aleatorio:=Random(X2-X1+1)+X1
+     else
+         Aleatorio:=Random(X1-X2+1)+X2;
+End;
+
+{-------------------------------------------------------------------}
+Function Distancia (X1, Y1, X2, Y2: real): real;
+Begin
+  Distancia:= sqrt( sqr( X1-X2) + sqr(Y1-Y2) );
+End;
+
+{-------------------------------------------------------------------}
+Function Cuadrante(X,Y : real): byte;
+begin
+  if (X > 0) and (Y > 0) then
+    Cuadrante:=1   { 1er. cuadrante}
+  else
+    if (X > 0) and (Y < 0) then
+      Cuadrante:=4   { 4to. cuadrante}
+    else
+      if (X < 0) and (Y > 0) then
+        Cuadrante:=2   { 2do. cuadrante}
+      else
+        if (X < 0) and (Y < 0) then
+          Cuadrante:=3   { 3er. cuadrante}
+        else
+          if (X <> 0) and (Y = 0) then
+            Cuadrante:=5   { sobre eje X}
+          else
+            if (X = 0) and (Y <> 0) then
+              Cuadrante:=6   { sobre eje Y}
+            else
+              Cuadrante:=0;    { origen}
+end;
+
+{--------------------------------------------------------------------}
+{comprueba que los parmetros sean distintos de cero, en caso que alguno sea cero devuelve MCD=0}
+Function MCD (N1,N2: integer): integer;
+Var
+Coc, Resto:integer;
+Begin
+  if (N1<>0) and (N2<>0) Then
+     Begin
+     Coc:= N1 div N2;
+     Resto:= N1 mod N2;
+     While Resto <> 0 do
+        Begin
+        N1:= N2;
+        N2:= Resto;
+        Coc:= N1 div N2;
+        Resto:= N1 mod N2;
+        end;
+     MCD:= N2;
+     End
+  Else
+     MCD:=0;
+end;
+
+{-------------------------------------------------------------------}
+{comprueba que los parmetros sean distintos de cero, en caso que alguno sea cero devuelve MCM=0}
+Function MCM (N1,N2: integer): integer;
+Begin
+  If (N1 and N2)<>0 then
+      MCM:= N1*N2 div MCD(N1,N2)
+  else
+      MCM:=0;
+end;
+
+END.
+
+         
