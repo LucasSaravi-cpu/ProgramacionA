@@ -1,0 +1,6 @@
+aaaaaaa 10 10000
+bbbbbbb 6 20000
+ccccccc 4 3000
+ddddddd 2 4000
+eeeeeee 1 5000
+fffffff 5 6000

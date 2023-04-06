@@ -1,0 +1,7 @@
+paula   42
+nicolas 24
+Eduardo 22
+marge   18
+lucas   25
+mauri   15
+

@@ -1,0 +1,9 @@
+aaaaaaa 1995 9
+bbbbbbb 2000 8
+ccccccc 2001 6
+ddddddd 1999 7
+eeeeeee 1996 5
+fffffff 2006 6
+ggggggg 2020 4
+hhhhhhh 2021 5
+ggggggg 1996 9
