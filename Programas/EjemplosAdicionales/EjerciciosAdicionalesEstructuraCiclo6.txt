@@ -1,0 +1,12 @@
+BBB 3
+10 C
+5 R
+6 C
+AAA 2
+8 E
+10 E
+FFF 1
+10 E
+DDD 2
+3 C
+9 C

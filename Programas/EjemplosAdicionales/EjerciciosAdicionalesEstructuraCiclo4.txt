@@ -1,0 +1,7 @@
+T 10 E
+M 5 E
+T 15 T
+P 2 E
+T 5 E
+T 6 T
+M 10 T
