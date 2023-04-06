@@ -1,0 +1,8 @@
+7 6
+2 1 5 0 3 4 ana
+9 2 5 7 6 8 juan
+9 1 5 0 3 4 luis
+4 2 9 1 0 5 pepe
+9 3 4 1 2 0 sara
+1 9 0 4 5 3 jorge
+9 1 8 0 7 4 mario

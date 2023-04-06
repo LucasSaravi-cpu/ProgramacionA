@@ -1,0 +1,8 @@
+7 6
+ana   2 1 5 0 3 4
+juan  9 2 5 7 6 8
+luis  9 1 5 0 3 4
+pepe  4 2 9 1 0 5
+sara  9 3 4 1 2 0
+jorge 1 9 0 4 5 3
+mario 9 1 8 0 7 4
