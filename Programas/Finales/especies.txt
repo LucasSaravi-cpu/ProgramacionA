@@ -1,0 +1,13 @@
+A Alamo     1111111111 10 4
+A Cedro     2222222222 15 8
+A Cedro     3333333333 5 1
+A Pino      4444444444 50 7
+F Amapola   5555555555 5 2
+F Amapola   6666666666 8 1
+F Clavel    7777777777 9 3
+F Clavel    8888888888 4 4
+F Rosa      9999999999 20 4
+H Tomate    1010101010 11 1
+H zapallo   2121212121 8 1
+H zapallo   3131313131 4 2
+Z zzzzzzz   0000000000 0 0
