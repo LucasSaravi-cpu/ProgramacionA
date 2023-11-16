@@ -1,0 +1,12 @@
+aaaaa 111 5 S
+aaaaa 222 5 S
+aaaaa 333 5 N
+aaaaa 444 5 N
+bbbbb 111 5 S
+bbbbb 222 5 S
+bbbbb 333 5 N
+bbbbb 444 2 S
+bbbbb 555 1 S
+bbbbb 666 6 S
+bbbbb 777 9 N
+zzzzz  0  0 
