@@ -1,0 +1,14 @@
+Buenos aires        mar del plata                 1111111111 25000
+Buenos aires        mar del plata                 2222222222 30000
+Buenos aires        mar del plata                 3333333333 2500
+Buenos aires        necochea                      3333333333 4000
+Buenos aires        tandil                        2222222222 15000
+Buenos aires        tandil                        4444444444 55000
+mendoza             mendoza                       6666666666 75000
+mendoza             mendoza                       7777777777 52000
+mendoza             san rafael                    8888888888 2200
+mendoza             san rafael                    9999999999 4500
+misiones            iguazu                        9999999999 9000
+misiones            iguazu                        9999999999 15000
+misiones            iguazu                        9999999991 18000
+zzzzzzzz

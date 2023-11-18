@@ -1,0 +1,8 @@
+7
+Lampara     I 200
+Cuaderno    L 800
+Preguntados J 140
+Lapicera    L 1000
+Enchufe     I 200
+Tabu        J 500
+Estanciero  J 300
