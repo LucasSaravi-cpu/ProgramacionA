@@ -39,7 +39,7 @@ begin
        j:=1;
        while ( cerveceria[j].nombre<>'****') do
           begin
-              read(archivo, cerveceria[i].nombre, cerveceria[i].cobro);
+              read(archivo, cerveceria[j].nombre, cerveceria[j].cobro);
 
            j:=j+1;
            end ;
