@@ -1,0 +1,50 @@
+program cargadorYlistadorMedios;
+
+type
+  st4=string[4];
+  st8=string[8];
+  medios=record
+    MedioTransporte:st4;
+    NombreReal:st8;
+  end;
+
+ TArchMedios = file of medios;
+
+Procedure Graba(var medio:TArchMedios);
+var
+  m:medios;
+  arch:text;
+  esp:char;
+begin
+assign(arch,'medios.txt');
+reset(arch);
+while not eof(arch) do
+  begin
+  readln(arch,m.MedioTransporte,esp,m.NombreReal);
+  write(medio,m);
+  end;
+close(arch);
+end;
+
+Procedure Lista(var medio:TArchMedios);
+var
+  m:medios;
+begin
+reset(medio);
+while not eof(medio) do
+  begin
+  read(medio,m);
+  writeln(m.MedioTransporte,'  ',m.NombreReal);
+  end;
+close(medio);
+end;
+
+var
+  medios:TArchMedios;
+begin
+assign(medios,'medios.dat');
+Graba(medio);
+Lista(medio);
+readln;
+end.
+

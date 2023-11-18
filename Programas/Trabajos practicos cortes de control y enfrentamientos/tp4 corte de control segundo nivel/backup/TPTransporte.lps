@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="18">
+      <Unit0>
+        <Filename Value="TPTransporte.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="58"/>
+        <CursorPos Y="75"/>
+        <UsageCount Value="44"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\AppData\Local\Temp\Rar$DIa8036.10235\TP_Bertea_Messina_Saravi.lpr"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="cargadorYlistadorTransporte.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="13"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\Tp\tp.lpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="65"/>
+        <CursorPos Y="77"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\TP\trabajoCorteDeControl.pas"/>
+        <UnitName Value="CorteDeControl"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="42"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\JUANED~1\AppData\Local\Temp\Rar$DIa6936.42282\saravi.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="70"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\JUANED~1\AppData\Local\Temp\Rar$DIa6936.45100\tp.lpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\JUANED~1\AppData\Local\Temp\Rar$DIa7456.37076\UltimoParcial.pas"/>
+        <UnitName Value="parcial"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="71"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\JUANED~1\AppData\Local\Temp\Rar$DIa7456.38617\restauran.pas"/>
+        <UnitName Value="restaurant"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="76"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\JUANED~1\AppData\Local\Temp\Rar$DIa5696.38057\cargadorylistadorComicios.lpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\JUANED~1\AppData\Local\Temp\Rar$DIa11700.26024\tp.lpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="31"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\JUANED~1\AppData\Local\Temp\Rar$DIa4624.16864\TP_Bertea_Messina_Saravi.lpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="58"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\JUANED~1\AppData\Local\Temp\Rar$DIa6164.48313\TPTransporte.lpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="22"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\JUANED~1\AppData\Local\Temp\Rar$DIa7116.28252\tp.lpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\JUANED~1\AppData\Local\Temp\Rar$DIa7116.46336\tp.lpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\tp2.pas"/>
+        <UnitName Value="TP2"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="33"/>
+        <CursorPos Y="47"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\JUANED~1\AppData\Local\Temp\Rar$DIa11176.056\TPTransporte.lpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\lazarus\fpc\3.2.0\source\rtl\inc\text.inc"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="245"/>
+        <CursorPos Y="245"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit17>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="37" TopLine="19"/>
+      </Position1>
+      <Position2>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="34" TopLine="19"/>
+      </Position2>
+      <Position3>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="36" TopLine="19"/>
+      </Position3>
+      <Position4>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="37" TopLine="19"/>
+      </Position4>
+      <Position5>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="34" TopLine="19"/>
+      </Position5>
+      <Position6>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="36" TopLine="19"/>
+      </Position6>
+      <Position7>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="37" TopLine="19"/>
+      </Position7>
+      <Position8>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="34" TopLine="19"/>
+      </Position8>
+      <Position9>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="36" TopLine="19"/>
+      </Position9>
+      <Position10>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="37" TopLine="19"/>
+      </Position10>
+      <Position11>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="34" TopLine="19"/>
+      </Position11>
+      <Position12>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="39" TopLine="19"/>
+      </Position12>
+      <Position13>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="40" TopLine="20"/>
+      </Position13>
+      <Position14>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="109" TopLine="94"/>
+      </Position14>
+      <Position15>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="110" TopLine="94"/>
+      </Position15>
+      <Position16>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="111" TopLine="94"/>
+      </Position16>
+      <Position17>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="64" TopLine="52"/>
+      </Position17>
+      <Position18>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="65" TopLine="52"/>
+      </Position18>
+      <Position19>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="66" TopLine="52"/>
+      </Position19>
+      <Position20>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="67" TopLine="52"/>
+      </Position20>
+      <Position21>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="68" TopLine="52"/>
+      </Position21>
+      <Position22>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="70" TopLine="52"/>
+      </Position22>
+      <Position23>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="71" TopLine="52"/>
+      </Position23>
+      <Position24>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="73" TopLine="53"/>
+      </Position24>
+      <Position25>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="46" TopLine="34"/>
+      </Position25>
+      <Position26>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="47" TopLine="34"/>
+      </Position26>
+      <Position27>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="49" Column="11" TopLine="44"/>
+      </Position27>
+      <Position28>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="74" TopLine="51"/>
+      </Position28>
+      <Position29>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="49" Column="51" TopLine="28"/>
+      </Position29>
+      <Position30>
+        <Filename Value="TPTransporte.lpr"/>
+        <Caret Line="47" Column="29" TopLine="44"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
