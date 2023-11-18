@@ -1,4 +1,4 @@
-program cervecerias;
+program project1;
 
 type
   TCerveceria = record
@@ -7,56 +7,52 @@ type
   end;
 
   TRepartidor = record
-    nombre: string[10];
-    cervecerias: array of TCerveceria;
+    nombre: string[4];
+
   end;
 
-var
-  repartidores: array of TRepartidor;
-  archivo: text;
-  cantidadRepartidores, i, j: byte;
-  cerveceria: TCerveceria;
-  repartidor: TRepartidor;
+  TV = Array [1..50] of  TCerveceria;
+   TV2 = Array [1..50] of  TRepartidor  ;
 
-procedure leevector();
+var
+
+  cerveceria: tv;
+  repartidor: tv2   ;
+  archivo:text;
+
+procedure leevector(var cerveceria: tv ; var repartidor: tv2);
+var
+  i,j:byte;
+  cantidadrepartidores:byte;
+
 begin
-  assign(archivo, 'cervecerias.txt');
+  assign(archivo, 'text.txt');
   reset(archivo);
 
   readln(archivo, cantidadRepartidores);
 
-  SetLength(repartidores, cantidadRepartidores);
+   for i:= 1 to cantidadrepartidores do
+      begin
 
-  for i := 0 to cantidadRepartidores - 1 do
-  begin
-    read(archivo, repartidores[i].nombre);
-    SetLength(repartidores[i].cervecerias, 0);
+    read(archivo, repartidor[i].nombre);
 
-    while not eoln(archivo) do
-    begin
-      read(archivo, cerveceria.nombre, cerveceria.cobro);
-      SetLength(repartidores[i].cervecerias, Length(repartidores[i].cervecerias) + 1);
-      repartidores[i].cervecerias[High(repartidores[i].cervecerias)] := cerveceria;
-    end;
+       j:=1;
+       while ( cerveceria[j].nombre<>'****') do
+          begin
+              read(archivo, cerveceria[i].nombre, cerveceria[i].cobro);
 
-    readln(archivo); // Leer la línea en blanco después de '****'
-  end;
+           j:=j+1;
+           end ;
+       readln(archivo);
+       end;
+
 
   close(archivo);
 end;
 
 begin
-  leevector();
+  leevector(cerveceria , repartidor);
 
-  // Mostrar la información leída
-  writeln('Cantidad de repartidores: ', cantidadRepartidores);
-  for i := 0 to cantidadRepartidores - 1 do
-  begin
-    writeln('Repartidor: ', repartidores[i].nombre);
-    for j := 0 to High(repartidores[i].cervecerias) do
-    begin
-      writeln('  Cervecería: ', repartidores[i].cervecerias[j].nombre, ', Cobro: ', repartidores[i].cervecerias[j].cobro:0:2);
-    end;
-  end;
-end.
+  readln;
+end.    
 
