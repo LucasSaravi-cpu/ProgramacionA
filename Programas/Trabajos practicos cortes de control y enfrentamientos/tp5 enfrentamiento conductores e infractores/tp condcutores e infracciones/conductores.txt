@@ -1,0 +1,6 @@
+12345678 lucas saravi         20
+23456789 manco albola         15
+34567890 franco sinfrenos     10
+45678901 mauro fitito         5
+56789012 morsi despa          20
+zzzzzzzz
