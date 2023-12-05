@@ -1,3 +1,31 @@
+{Se tiene el archivo Comicios en el que se registraron los resultados de las últimas elecciones en una ciudad: 
+Archivo Comicios 
+• Circuito (cadena de 6, 1
+er Campo de secuencia - Clave Secundaria) 
+• Mesa (cadena de 4, 2
+do Campo de secuencia - Clave Secundaria) 
+• Cantidad de votos 
+• Cargo (los valores para este campo pueden ser: P, G, S, D, I, C) 
+Se pide escribir un programa en Pascal que defina el tipo del archivo y lo utilice para generar el listado que se 
+muestra más abajo. 
+ 
+ Resultado de los Comicios 
+Circuito xxxx 
+ Mesa % Votos Ejecutivos % Votos Legislativos 
+ xxxx 99.99 % 99.99 % 
+ xxxx 99.99 % 99.99 % 
+ …… ........ ……… 
+Circuito xxxx 
+ Mesa % Votos Ejecutivos % Votos Legislativos 
+ xxxx 99.99 % 99.99 % 
+ xxxx 99.99 % 99.99 % 
+ …… ........ ……… 
+Circuito con menor cantidad de mesas: xxxx (999 mesas) 
+Notas: Considerar 
+- Votos ejecutivos P, G, I 
+- Votos Legislativos S, D, C
+}
+
 program TrabajoPractico1;
 
 type
