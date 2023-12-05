@@ -1,4 +1,26 @@
-{Particpa solo un archivo y su campo de secuencia  secundaria el resultado es un listado resumindo}
+{La Secretaría de Transporte de la ciudad de MdP mantiene un archivo con los datos de diferentes medio de 
+transportes diarios, con origen en la ciudad hacia otras ciudades de la Pcia de BsAs, con el siguiente diseño en cada 
+registro:
+ARCHIVO TRANSPORTE 
+o Ciudad Destino (1er campo de secuencia clave secundaria) 
+o Medio Transporte (1..20, 2do campo de secuencia clave secundaria) 
+o Hora Salida (0..23) 
+o Capacidad (cantidad de asientos) 
+Además se tiene el archivo Medios que contiene los nombres de las empresas de transporte y se accede en forma 
+directa por el MedioTransporte. Se pide: 
+a) Definir los tipos de los archivos anteriores. 
+b) Desarrollar un procedimiento que obtenga el siguiente listado por ciudad y medio de transporte: 
+Listado de Transportes Disponibles 
+ Ciudad XXXXXXXX 
+ Medio Transporte Frecuencia Diaria Capacidad promedio 
+ xxxxxxx 99 99 
+ xxxxxxx 99 99 
+ Ciudad XXXXXXXX 
+ Medio Transporte Frecuencia Diaria Capacidad promedio 
+ xxxxxxx 99 99 
+ xxxxxxx 99 99 
+ ........... 
+Ciudad Destino con mayor cantidad de Medios de Transporte diferentes: XXXXXXX }
 
 program CorteDeControlTransporte;
 type
