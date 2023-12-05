@@ -2,12 +2,12 @@
 inhabilitados por haber perdido los puntos de su registro (20 ptos). 
 La información se encuentra almacenada en dos archivos CONDUCTORES e INFRACTORES: 
 ARCHIVO CONDUCTORES
--DNI ANU8 {campo de secuencia , clave primaria} 
+-DNI ANU8 campo de secuencia , clave primaria
 -Apellido y Nombre 
--Puntos (1..20) 
+-Puntos 1..20
 ARCHIVO INFRACTORES
-- DNI ANU8 {campo de secuencia , clave primaria} 
--Cod. De Infracción {1..10} 
+- DNI ANU8 campo de secuencia , clave primaria
+-Cod. De Infracción 1..10 
 Se pide enfrentar ambos archivos utilizando la tabla Puntos_X_Infraccion (10 elementos, se accede por Cod. De 
 infracción y debe estar cargada en memoria), esta almacena los puntos que corresponde descontar. 
 En dicho enfrentamiento se actualizarán en un archivo Temporario los puntos de los conductores que no hayan 
