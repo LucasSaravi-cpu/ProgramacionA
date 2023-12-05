@@ -1,3 +1,21 @@
+{La Dirección de Transito debe controla a los conductores que debido a infracciones de tránsito, han quedado 
+inhabilitados por haber perdido los puntos de su registro (20 ptos). 
+La información se encuentra almacenada en dos archivos CONDUCTORES e INFRACTORES: 
+ARCHIVO CONDUCTORES
+-DNI ANU8 {campo de secuencia , clave primaria} 
+-Apellido y Nombre 
+-Puntos (1..20) 
+ARCHIVO INFRACTORES
+- DNI ANU8 {campo de secuencia , clave primaria} 
+-Cod. De Infracción {1..10} 
+Se pide enfrentar ambos archivos utilizando la tabla Puntos_X_Infraccion (10 elementos, se accede por Cod. De 
+infracción y debe estar cargada en memoria), esta almacena los puntos que corresponde descontar. 
+En dicho enfrentamiento se actualizarán en un archivo Temporario los puntos de los conductores que no hayan 
+perdido los 20 puntos. Aquellos que perdieron todos los puntos serán dados de baja y se listaran sus datos. 
+Por fin de proceso se informará: 
+a) Puntos promedio de los conductores que no registran infracciones 
+b) Cantidad de infracciones erróneas, no existe el DNI en CONDUCTORES}
+
 program proyecto1;
 
 
