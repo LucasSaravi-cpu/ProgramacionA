@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CONFIG>
-  <Compiler Value="C:\lazarus\fpc\3.2.0\bin\x86_64-win64\fpc.exe" Date="1381338938"/>
-  <Params Value=" -MObjFPC -Scghi -O1 -gw2 -godwarfsets -gl -l -vewnhibq &quot;-FiC:\Users\Principal\Downloads\TP2 Corte de Control\lib\x86_64-win64&quot; &quot;-FuC:\Users\Principal\Downloads\TP2 Corte de Control\&quot; &quot;-FUC:\Users\Principal\Downloads\TP2 Corte de Control\lib\x86_64-win64\&quot; &quot;-FEC:\Users\Principal\Downloads\TP2 Corte de Control\&quot; &quot;-oC:\Users\Principal\Downloads\TP2 Corte de Control\TPTransporte.exe&quot; TPTransporte.lpr"/>
-</CONFIG>

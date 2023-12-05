@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CONFIG>
-  <Compiler Value="C:\lazarus\fpc\3.2.0\bin\x86_64-win64\fpc.exe" Date="1381338938"/>
-  <Params Value=" -MObjFPC -Scghi -O1 -gw2 -godwarfsets -gl -l -vewnhibq -FiC:\Users\Acer\Downloads\TP2\lib\x86_64-win64 -FuC:\Users\Acer\Downloads\TP2\ -FUC:\Users\Acer\Downloads\TP2\lib\x86_64-win64\ -FEC:\Users\Acer\Downloads\TP2\ -oC:\Users\Acer\Downloads\TP2\TPTransporte.exe TPTransporte.lpr"/>
-</CONFIG>
