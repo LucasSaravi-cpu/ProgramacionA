@@ -4,7 +4,7 @@
 
 Software utilizado : Lazarus 
 
-## Tenmas explicados e implementados en diversos ejercicios
+## Temas explicados e implementados en diversos ejercicios
 
 - Resolucion de problemas
 - Estructuras secuenciales
